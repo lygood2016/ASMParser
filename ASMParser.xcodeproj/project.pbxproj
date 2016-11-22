@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		F47A7BB31DE4D110000DB6E4 /* ASMParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASMParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47A7BB61DE4D110000DB6E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F47A7BBD1DE4D323000DB6E4 /* operators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = operators.h; path = headers/operators.h; sourceTree = "<group>"; };
+		F47A7BBE1DE4D382000DB6E4 /* operator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = operator.h; path = headers/operator.h; sourceTree = "<group>"; };
+		F47A7BBF1DE4D434000DB6E4 /* place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = place.h; path = headers/place.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				F47A7BB61DE4D110000DB6E4 /* main.cpp */,
+				F47A7BBD1DE4D323000DB6E4 /* operators.h */,
+				F47A7BBE1DE4D382000DB6E4 /* operator.h */,
+				F47A7BBF1DE4D434000DB6E4 /* place.h */,
 			);
 			path = ASMParser;
 			sourceTree = "<group>";
