@@ -17,9 +17,10 @@ enum Types {
 };
 
 struct Place {
-    Place (long* address, Types type) :address(address), isMem(isMem) {}
-    long* address;
-    Types isMem;
+    Place (long value, Types type, string regName) :value(value), type(type), regName(regName) {}
+    long value;
+    Types type;
+    string regName;
 };
 
 #endif /* place_h */

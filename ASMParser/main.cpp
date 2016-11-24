@@ -14,13 +14,25 @@
 #include <sstream>
 #include "headers/asm_text.h"
 #include "headers/string_utils.h"
+#include "headers/cpu.h"
+#include "headers/operator.h"
 using namespace std;
+
+typedef void (*Operation)(const Place& source, const Place& target);
+extern unordered_map<string, Operation> assemblyToFunction;
 
 ASMText text;
 string gFileName = "/Users/amznyl/Desktop/ASMParser/ASMParser/asm.s";
 
+
 int main(int argc, const char * argv[]) {
     // insert code here...
+    CPU64* cpu = CPU64::getInstance();
+    
+    assemblyToFunction["movq"](Place(0, REGISTER, "rax"), Place(0, REGISTER, "rbx"));
+    cout << *cpu->getRegLong("ebx") << endl;
+    
+    /*
     ifstream infile(gFileName);
     string line;
     string currentLabel = "global";
@@ -35,6 +47,6 @@ int main(int argc, const char * argv[]) {
         }
         text.addInstruction(currentLabel, line);
     }
-    text.dumpText();
+    text.dumpText();*/
     return 0;
 }

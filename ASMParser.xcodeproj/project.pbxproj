@@ -27,10 +27,10 @@
 		F40DA6F01DE51E6700C959E4 /* asm_text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = asm_text.h; path = headers/asm_text.h; sourceTree = "<group>"; };
 		F40DA6F11DE5229100C959E4 /* string_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = string_utils.h; path = headers/string_utils.h; sourceTree = "<group>"; };
 		F40DA6F61DE5231700C959E4 /* string_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = string_utils.cpp; path = sources/string_utils.cpp; sourceTree = "<group>"; };
+		F40DA6F81DE65B9E00C959E4 /* memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = memory.h; path = headers/memory.h; sourceTree = "<group>"; };
 		F452AFF31DE519E900CC97E5 /* cpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = headers/cpu.h; sourceTree = "<group>"; };
 		F47A7BB31DE4D110000DB6E4 /* ASMParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASMParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47A7BB61DE4D110000DB6E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F47A7BBD1DE4D323000DB6E4 /* operators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = operators.h; path = headers/operators.h; sourceTree = "<group>"; };
 		F47A7BBE1DE4D382000DB6E4 /* operator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = operator.h; path = headers/operator.h; sourceTree = "<group>"; };
 		F47A7BBF1DE4D434000DB6E4 /* place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = place.h; path = headers/place.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,12 +67,12 @@
 			children = (
 				F40DA6F61DE5231700C959E4 /* string_utils.cpp */,
 				F47A7BB61DE4D110000DB6E4 /* main.cpp */,
-				F47A7BBD1DE4D323000DB6E4 /* operators.h */,
 				F47A7BBE1DE4D382000DB6E4 /* operator.h */,
 				F47A7BBF1DE4D434000DB6E4 /* place.h */,
 				F452AFF31DE519E900CC97E5 /* cpu.h */,
 				F40DA6F01DE51E6700C959E4 /* asm_text.h */,
 				F40DA6F11DE5229100C959E4 /* string_utils.h */,
+				F40DA6F81DE65B9E00C959E4 /* memory.h */,
 			);
 			path = ASMParser;
 			sourceTree = "<group>";
